@@ -2,4 +2,4 @@
 #
 
 export PROMPT='%B%F{white}> %b'
-export RPROMPT='%B%F{white}(%F{cyan}%~%F{white})'
+export RPROMPT='%B%F{white}(%F{cyan}${${(%):-%d}/"$HOME"/"~"}%F{white})'
